@@ -21,7 +21,6 @@ Ensure that a verified container solution satisfies the following high level req
 | **2.6** | Verify that SELinux or AppArmor is enabled and running on all nodes. |  |  | ✓ | 1.0 |
 | **2.7** | Verify that updates for both the nodes and the Docker Engine running on them are applied in regular intervals. Ideally, applying updates is fully automated. | ✓ | ✓ | ✓ | 1.0 |
 | **2.8** | Verify that updates are rolled out using a canary deployment/release strategy, which allows rollbacks. | | ✓ | ✓ | 1.0 |
-| **2.9** | Verify that _dockerd_ is configured with _live restore_ enabled. | | ✓ | ✓ | 1.0 |
 | **2.10** | Verify that permissions to the configuration of _dockerd_ is restricted to users that actually need access to it and are properly logged. | ✓ | ✓ | ✓ | 1.0 |
 | **2.11** | Verify that all nodes undergo regular automated security scans which cover the whole operating system and not just container related elements. |  | ✓ | ✓ | 1.0 |
 | **2.12** | Verify that container-specific operating systems (e.g. Container Linux, RancherOS, RedHat Project Atomic, VMware Photon) are used on all nodes instead of general-purpose ones. |  |  | ✓ | 1.0 |
