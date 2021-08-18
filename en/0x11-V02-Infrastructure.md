@@ -17,7 +17,7 @@ Ensure that a verified container solution satisfies the following high level req
 | **2.2** | Verify that the infrastructure, including all components thereof (nodes, networks, deployments, ...) are documented (ideally fully automated). | ✓ | ✓ | ✓ | 1.0 |
 | **2.3** | Verify that all of the used components are supported/maintained and compatible with each other (OS, Container Network Interface, Container Runtime, Container Image Registry, ...). | ✓ | ✓ | ✓ | 1.0 |
 | **2.4** | Verify that adequate resources are allocated to all nodes for them to run stable. | ✓ | ✓ | ✓ | 1.0 |
-| **2.5** | Verify that the resources available to containers are limited (ulimit). |  | ✓ | ✓ | 1.0 |
+| **2.5** | Verify that the resources available to containers and pods are limited using constraints. |  | ✓ | ✓ | 1.0 |
 | **2.6** | Verify that SELinux or AppArmor is enabled and running on all nodes as well as for _dockerd_. |  |  | ✓ | 1.0 |
 | **2.7** | Verify that updates for both the nodes and the Docker Engine running on them are applied in regular intervals. Ideally, applying updates is fully automated. | ✓ | ✓ | ✓ | 1.0 |
 | **2.8** | Verify that updates are rolled out using a canary deployment/release strategy, which allows rollbacks. | | ✓ | ✓ | 1.0 |
