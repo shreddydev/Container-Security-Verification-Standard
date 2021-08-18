@@ -24,6 +24,6 @@ Ensure that a verified container solution satisfies the following high level req
 | **2.10** | Verify that permissions to the configurations of the control plane components are restricted to users that actually need access to them and are properly logged. | ✓ | ✓ | ✓ | 1.0 |
 | **2.11** | Verify that all nodes undergo regular automated security scans which cover the whole operating system and not just container related elements. |  | ✓ | ✓ | 1.0 |
 | **2.12** | Verify that container-specific operating systems (e.g. Container Linux, RancherOS, RedHat Project Atomic, VMware Photon) are used on all nodes instead of general-purpose ones. |  |  | ✓ | 1.0 |
-| **2.13** | Verify that all nodes are hardened based on common best practices. | ✓ | ✓ | ✓ | 1.0 |
+| **2.13** | Verify that all nodes including their components and OS are hardened based on common best practices. | ✓ | ✓ | ✓ | 1.0 |
 | **2.14** | Verify that unless otherwise specified, the default Docker configuration values are used. | ✓ | ✓ | ✓ | 1.0 |
 | **2.15** | Verify that direct access to nodes (e.g. via SSH or RDP) is restricted as much as possible. | ✓ | ✓ | ✓ | 1.0 |
