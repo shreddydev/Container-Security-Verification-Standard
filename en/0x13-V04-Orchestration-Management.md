@@ -24,3 +24,4 @@ Ensure that a verified container solution satisfies the following high level req
 | **4.8** | Verify that containers that are no longer needed are deleted. | | ✓ | ✓ | 1.0 |
 | **4.9** | Verify that only containers with the same data classification level run on the same node. |  |  | ✓ | 1.0 |
 | **4.10** | Verify that only containers with the same level of exposure (e.g. Internet facing) run on the same node. |  |  | ✓ | 1.0 |
+| **4.11** | Verify that exposed services such as _etcd_ are only available to fully trusted systems that require the specific service. | ✓ | ✓ | ✓ | 1.0 |
