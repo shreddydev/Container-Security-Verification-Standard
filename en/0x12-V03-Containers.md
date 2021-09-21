@@ -21,7 +21,7 @@ Ensure that a verified container solution satisfies the following high level req
 | **3.5** | Verify that containers cannot be granted any additional privileges during their runtime by setting the appropriate values to flags (allowPrivilegeEscalation, defaultAllowPrivilegeEscalation). | ✓ | ✓ | ✓ | 1.0 |
 | **3.6** | Verify that all base images are explicitly specified, using their hash instead of name and tag. |  |  | ✓ | 1.0 |
 | **3.7** | Verify that the signature of each image is verified before productive usage. | |  | ✓ | 1.0 |
-| **3.8** | Verify that only required software packages are installed in images. | ✓ | ✓ | ✓ | 1.0 |
+| **3.8** | Verify that only required software packages are installed in images. |  | ✓ | ✓ | 1.0 |
 | **3.9** | Verify that the root file system is mounted in read-only mode. |  | ✓ | ✓ | 1.0 |
 | **3.10** | Verify that after a container has been actively accessed (e.g., for troubleshooting), it's deleted and replaced by a new instance (container) of the image. |  | ✓ | ✓ | 1.0 |
 | **3.11** | Verify that Dockerfiles use the `COPY` directive instead of the `ADD` directive unless the source is fully trusted. | ✓ | ✓ | ✓ | 1.0 |
