@@ -17,7 +17,7 @@ Ensure that a verified container solution satisfies the following high level req
 | **3.1** | Verify that the root user isn't used within containers except during initialization and privileges are dropped on completion. |  | ✓ | ✓ | 1.0 |
 | **3.2** | Verify that user namespacing is enabled. |  | ✓ | ✓ | 1.0 |
 | **3.3** | Verify that within each container image, a new user is created, which is then used to perform all operations within the container. |  |  | ✓ | 1.0 |
-| **3.4** | Verify that a specific (non-standard) _seccomp_-profile is applied to each container-based on the needs of the container. |  |  | ✓ | 1.0 |
+| **3.4** | Verify that syscalls from containers are restricted by applying a specific (non-standard) _seccomp_- or _AppArmor_-profile to each container, based on the needs of the container. |  |  | ✓ | 1.0 |
 | **3.5** | Verify that containers cannot be granted any additional privileges during their runtime (`--no-new-privileges` flag). | ✓ | ✓ | ✓ | 1.0 |
 | **3.6** | Verify that all base images are explicitly specified, using their hash instead of name and tag. |  |  | ✓ | 1.0 |
 | **3.7** | Verify that the signature of each image is verified before productive usage. | |  | ✓ | 1.0 |
