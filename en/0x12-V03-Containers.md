@@ -28,3 +28,4 @@ Ensure that a verified container solution satisfies the following high level req
 | **3.12** | Verify that remote management services such as SSH or RDP are disabled or not even installed within containers. | ✓ | ✓ | ✓ | 1.0 |
 | **3.15** | Verify that the network socket of the node isn't mounted inside any container directly, unless it is used for monitoring or administration. If access to the network socket is required, check if read-only access is sufficient and limit the access of the container accordingly. | ✓ | ✓ | ✓ | 1.0 |
 | **3.16** | Verify that all images used are signed by a trusted notary. |  |  | ✓ | 1.1 |
+| **3.17** | Verify that admission controllers are used to enforce technical requirements. |  |  | ✓ | 1.1 |
