@@ -17,7 +17,6 @@ Ensure that a verified container solution satisfies the following high level req
 | **4.1** | Verify that manager nodes are set up redundant and ready to support high availability. | ✓ | ✓ | ✓ | 1.0 |
 | **4.2** | Verify that an odd number of manager nodes is deployed with a minimum of three nodes. | ✓ | ✓ | ✓ | 1.0 |
 | **4.3** | Verify that managers are distributed across multiple data centers and availability zones. |  | ✓ | ✓ | 1.0 |
-| **4.5** | Verify that the orchestrator rebalances the active containers on a regular basis. | ✓ | ✓ | ✓ | 1.0 |
 | **4.6** | Verify that manager nodes don't take on worker tasks and containers. | ✓ | ✓ | ✓ | 1.0 |
 | **4.7** | Verify that predefined labels are used to properly identify and manage all resources. | | ✓ | ✓ | 1.0 |
 | **4.8** | Verify that containers that are no longer needed are deleted. | | ✓ | ✓ | 1.0 |
