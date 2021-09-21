@@ -14,7 +14,7 @@ Ensure that a verified container solution satisfies the following high level req
 
 | # | Description | L1 | L2 | L3 | Since |
 | --- | --- | --- | --- | -- | -- |
-| **5.1** | Verify that an odd number of image registries (e.g., DTR) with a minimum of three registries is used. |  |  | ✓ | 1.0 |
+| **5.1** | Verify that an odd number of container image registries with a minimum of three registries is used. |  |  | ✓ | 1.0 |
 | **5.2** | Verify that garbage collection is enabled on the image registries and running on a regular basis. | ✓ | ✓ | ✓ | 1.0 |
 | **5.3** | Verify that all images undergo regular automated security scans. |  | ✓ | ✓ | 1.0 |
 | **5.4** | Verify that containers are always created based on the most recent corresponding image and not local caches. | ✓ | ✓ | ✓ | 1.0 |
