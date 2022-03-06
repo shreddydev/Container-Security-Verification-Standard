@@ -16,8 +16,6 @@ Ensure that a verified container solution satisfies the following high level req
 | --- | --- | --- | --- | -- | -- |
 | **7.1** | Verify that a production ready networking driver is used. | ✓ | ✓ | ✓ | 1.0 |
 | **7.2** | Verify that a load balancing features is present and active (e.g. by using DNS Round Robin or virtual IPs (VIP)). |  | ✓ | ✓ | 1.0 |
-| **7.3** | Verify that the Docker userland proxy (which is enabled by default) is disabled. |  | ✓ | ✓ | 1.0 |
-| **7.4** | Verify that the default bridge (_docker0_) is not used. | ✓ | ✓ | ✓ | 1.0 |
 | **7.5** | Verify that _dockerd_ is configured in a way that network communication between different containers is not possible by default. This can be done either by not using the _docker0_ bridge or setting _--icc_ to false. |  | ✓ | ✓ | 1.0 |
 | **7.6** | Verify that _dockerd_ is permitted to modify _iptables_ rules. | ✓ | ✓ | ✓ | 1.0 |
 | **7.7** | Verify that published ports are assigned to a specific network interface of a node. | ✓ | ✓ | ✓ | 1.0 |
