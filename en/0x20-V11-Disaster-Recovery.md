@@ -18,4 +18,3 @@ Ensure that a verified container solution satisfies the following high level req
 | **11.2** | Verify that the restoration of the infrastructure is automated, documented and regularly tested. | ✓ | ✓ | ✓ | 1.0 |
 | **11.3** | Verify that upgrades and downgrades of the basic infrastructure as well as the Docker Engine is automated, documented and regularly tested. |  |  | ✓ | 1.0 |
 | **11.4** | Verify that the recovery  (applications, services, nodes, etc.) is automated, documented and regularly tested according to the required availability. |  | ✓ | ✓ | 1.0 |
-| **11.5** | Verify that an `on-failure` restart policy is enabled for each container. | | ✓ | ✓ | 1.0 |
