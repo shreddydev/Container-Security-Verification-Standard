@@ -23,7 +23,6 @@ The following requirements are to be evaluated based on a regular execution cycl
 | **12.5** | Verify that the configurations, images and networks of all services can be updated and downgraded on a rolling basis. | | ✓ | ✓ | 1.0 |
 | **12.6** | Verify that nodes as well as the Docker Engine are up to date. | ✓ | ✓ | ✓ | 1.0 |
 | **12.7** | Verify that the load-balancing strategies work as defined. | | ✓ | ✓ | 1.0 |
-| **12.8** | Verify that containers are balanced across the cluster based on the defined strategy. | | ✓ | ✓ | 1.0 |
 | **12.9** | Verify that all services can recover from failures of nodes and individual containers. | | ✓ | ✓ | 1.0 |
 | **12.10** | Verify that backups can be restored for all services in the event of a total failure. | ✓ | ✓ | ✓ | 1.0 |
 | **12.11** | Verify that _Docker Security Bench_ runs regularly and passes. | | ✓ | ✓ | 1.0 |
