@@ -14,7 +14,7 @@ Ensure that a verified container solution satisfies the following high level req
 
 | # | Description | L1 | L2 | L3 | Since |
 | --- | --- | --- | --- | -- | -- |
-| **11.1** | Verify that regular backups (UCP, DTR, and Swarm) are performed. A weekly backup has to be performed at a minimum. | ✓ | ✓ | ✓ | 1.0 |
+| **11.1** | Verify that regular backups (control plane, registry, etc.) are performed. | ✓ | ✓ | ✓ | 1.0 |
 | **11.2** | Verify that the restoration of the infrastructure is automated, documented and regularly tested. | ✓ | ✓ | ✓ | 1.0 |
 | **11.3** | Verify that upgrades and downgrades of the basic infrastructure as well as the Docker Engine is automated, documented and regularly tested. |  |  | ✓ | 1.0 |
 | **11.4** | Verify that the recovery of individual applications/services is automated, documented and regularly tested. |  | ✓ | ✓ | 1.0 |
