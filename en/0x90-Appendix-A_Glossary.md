@@ -10,7 +10,7 @@
 * **IAM** - Identity and Access Management
 * **LDAP** – Lightweight Directory Access Protocol
 * **mTLS** – Mutual TLS (authentication)
-* **Node** – A physical host on which the container / Docker engine runs. Could be a single host or a host as part of a cluster.
+* **Node** – A physical host on which the container / container runtime runs. Could be a single host or a host as part of a cluster.
 * **RBAC** – Role-Based Access Control
 * **RDP** – Remote Desktop Protocol
 * **Service** – A service which runs in a container.

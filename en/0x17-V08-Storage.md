@@ -16,5 +16,5 @@ Ensure that a verified container solution satisfies the following high level req
 | **8.1** | Verify that a production ready storage backend is used. | ✓ | ✓ | ✓ | 1.0 |
 | **8.2** | Verify that the image storage backend is redundant and located in a secured network zone. | ✓ | ✓ | ✓ | 1.0 |
 | **8.3** | Verify that a suitable and tested data storage driver is used in order to ensure the replication and availability of application data. | ✓ | ✓ | ✓ | 1.0 |
-| **8.4** | Verify that persistent data is never stored directly inside a container, but on a corresponding docker volume or mount point instead. | ✓ | ✓ | ✓ | 1.0 |
+| **8.4** | Verify that persistent data is never stored directly inside a container, but on a corresponding volume or mount point instead. | ✓ | ✓ | ✓ | 1.0 |
 | **8.5** | Verify that persistent data is regularly backed up according to a suitable well defined backup concept and the restore is tested. | ✓ | ✓ | ✓ | 1.0 |
