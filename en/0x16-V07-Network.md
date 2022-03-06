@@ -16,7 +16,7 @@ Ensure that a verified container solution satisfies the following high level req
 | --- | --- | --- | --- | -- | -- |
 | **7.1** | Verify that a production ready networking driver is used. | ✓ | ✓ | ✓ | 1.0 |
 | **7.2** | Verify that a load balancing features is present and active (e.g. by using DNS Round Robin or virtual IPs (VIP)). |  | ✓ | ✓ | 1.0 |
-| **7.5** | Verify that _dockerd_ is configured in a way that network communication between different containers is not possible by default. This can be done either by not using the _docker0_ bridge or setting _--icc_ to false. |  | ✓ | ✓ | 1.0 |
+| **7.5** | Verify that network communication between different pods is not possible by default. This can for example be done by using a network plugin which supports this feature. |  | ✓ | ✓ | 1.0 |
 | **7.6** | Verify that _dockerd_ is permitted to modify _iptables_ rules. | ✓ | ✓ | ✓ | 1.0 |
 | **7.7** | Verify that published ports are assigned to a specific network interface of a node. | ✓ | ✓ | ✓ | 1.0 |
 | **7.8** | Verify that management and data/application traffic is separated by different network interfaces. |  |  | ✓ | 1.0 |
