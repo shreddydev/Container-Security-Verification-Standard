@@ -25,4 +25,4 @@ The following requirements are to be evaluated based on a regular execution cycl
 | **12.7** | Verify that the load-balancing strategies work as defined. | | ✓ | ✓ | 1.0 |
 | **12.9** | Verify that all services can recover from failures of nodes and individual containers. | | ✓ | ✓ | 1.0 |
 | **12.10** | Verify that backups can be restored for all services in the event of a total failure. | ✓ | ✓ | ✓ | 1.0 |
-| **12.11** | Verify that _Docker Security Bench_ runs regularly and passes. | | ✓ | ✓ | 1.0 |
+| **12.11** | Verify that the results from security scans are regularly analyzed and addressed. | | ✓ | ✓ | 1.0 |
