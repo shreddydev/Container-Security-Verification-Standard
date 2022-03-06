@@ -16,7 +16,7 @@ Ensure that a verified container solution satisfies the following high level req
 | --- | --- | --- | --- | -- | -- |
 | **6.1** | Verify that an RBAC model to manage access control is used. |  | ✓ | ✓ | 1.0 |
 | **6.2** | Verify that all images are signed by a trusted registry. |  |  | ✓ | 1.0 |
-| **6.3** | Sensitive information may never be part of a Dockerfile or Docker-Compose file. In particular, verify that e.g. Docker secrets are used for handling sensitive information like API keys and passwords.  | ✓ | ✓ | ✓ | 1.0 |
+| **6.3** | Sensitive information may never be part of a Pod definition file. In particular, verify that e.g. secrets are used for handling sensitive information like API keys and passwords.  | ✓ | ✓ | ✓ | 1.0 |
 | **6.4** | Verify that orchestration join keys are rotated in regular intervals. |  | ✓ | ✓ | 1.0 |
 | **6.5** | Verify that auto-lock keys are rotated in regular intervals if auto-lock is enabled. |  | ✓ | ✓ | 1.0 |
 | **6.6** | Verify that node certificates are rotated in regular intervals. |  | ✓ | ✓ | 1.0 |
