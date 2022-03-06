@@ -21,6 +21,6 @@ Ensure that a verified container solution satisfies the following high level req
 | **7.8** | Verify that management and data/application traffic is separated by different network interfaces. |  |  | ✓ | 1.0 |
 | **7.9** | Verify that each application (one or more services) is assigned at least one separate, isolated overlay network in order to ensure Layer 3 segmentation. |  |  | ✓ | 1.0 |
 | **7.10** | Verify that encryption between containers on the overlay network is enabled. |  | ✓ | ✓ | 1.0 |
-| **7.11** | Verify that the used subnets do not overlap with other subnets (e.g. overlay networks). | ✓ | ✓ | ✓ | 1.0 |
+| **7.11** | Verify that subnets within the cluster do not overlap with other subnets (e.g. overlay networks, outside subnets). | ✓ | ✓ | ✓ | 1.0 |
 | **7.12** | Verify that published ports are limited to a necessary minimum. | ✓ | ✓ | ✓ | 1.0 |
 | **7.13** | Verify that encryption between odes on the overlay network is enabled. |  | ✓ | ✓ | 1.0 |
