@@ -19,3 +19,4 @@ Ensure that a verified container solution satisfies the following high level req
 | **10.3** | Verify that additional nodes can be set up automatically (e.g., Puppet, Chef, Ansible, Salt, Terraform) and configured the same way as existing nodes. |  | ✓ | ✓ | 1.0 |
 | **10.5** | Verify that a discovery and registration service like consul, Zookeeper, Eureka, Etcd or even just DNS is used internally and externally. |  | ✓ | ✓ | 1.0 |
 | **10.6** | Verify that users and roles are mapped to an existing central IAM solution. |  |  | ✓ | 1.0 |
+| **10.7** | Verify that each component can be uniquely identified and be communicated with. |  | ✓ | ✓ | 1.1 |
