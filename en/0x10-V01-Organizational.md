@@ -18,3 +18,4 @@ Please note that the requirements in this section are non-exhaustive as many org
 | **1.4** | Verify that each service/application (can consist of multiple containers) has a security concept which provides information on the security needs of the service/application and how they are or will be addressed. |  | ✓ | ✓ | 1.0 |
 | **1.5** | Verify that identified security risks and vulnerabilities are promptly eliminated (or an exception is granted) and centrally managed according to a predefined risk and vulnerability management process. |  | ✓ | ✓ | 1.0 |
 | **1.6** | Verify the roles and responsibilities concerning the container infrastructure are defined. This includes e.g. who approves connectivity or decides on allowed base images. |  | ✓ | ✓ | 1.0 |
+| **1.7** | Verify that a central change management system is implemented and all changes to the container infrastructure and its components are tracked there. | | ✓ | ✓ | 1.1 |
