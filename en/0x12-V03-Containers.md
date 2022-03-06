@@ -30,3 +30,4 @@ Ensure that a verified container solution satisfies the following high level req
 | **3.16** | Verify that all images used are signed by a trusted notary. |  |  | ✓ | 1.1 |
 | **3.17** | Verify that admission controllers are used to enforce technical requirements. |  |  | ✓ | 1.1 |
 | **3.18** | Verify that service account tokens are not mounted into the container by default. |  | ✓ | ✓ | 1.1 |
+| **3.18** | Verify that local mounts for containers are not allowed. | ✓ | ✓ | ✓ | 1.1 |
