@@ -20,5 +20,5 @@ Ensure that a verified container solution satisfies the following high level req
 | **6.4** | Verify that orchestration join keys are rotated every 30 to 90 days. |  | ✓ | ✓ | 1.0 |
 | **6.6** | Verify that certificates, such the ones from the node and CA, are rotated in regular intervals. |  | ✓ | ✓ | 1.0 |
 | **6.8** | Verify that your own CA, or one that you have control over, is used for generating and verifying certificates used for mutual TLS authentication of inter-cluster communication. |  | ✓ | ✓ | 1.0 |
-| **6.9** | Verify that the SSL/TLS certificates used (e.g. for UCP and DTR) are validated. | ✓ | ✓ | ✓ | 1.0 |
+| **6.9** | Verify that the SSL/TLS certificates used (e.g. for registry and control plane) are validated. | ✓ | ✓ | ✓ | 1.0 |
 | **6.10** | Verify that secrets (e.g. cryptographic keys and passwords) are used securely with a secret management solution instead of e.g. exposed to a container by using environment variables. |  | ✓ | ✓ | 1.0 |
