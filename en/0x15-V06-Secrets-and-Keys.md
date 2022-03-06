@@ -18,7 +18,6 @@ Ensure that a verified container solution satisfies the following high level req
 | **6.2** | Verify that all images are signed by a trusted registry. |  |  | ✓ | 1.0 |
 | **6.3** | Sensitive information may never be part of a Pod definition file. In particular, verify that e.g. secrets are used for handling sensitive information like API keys and passwords.  | ✓ | ✓ | ✓ | 1.0 |
 | **6.4** | Verify that orchestration join keys are rotated every 30 to 90 days. |  | ✓ | ✓ | 1.0 |
-| **6.5** | Verify that auto-lock keys are rotated in regular intervals if auto-lock is enabled. |  | ✓ | ✓ | 1.0 |
 | **6.6** | Verify that node certificates are rotated in regular intervals. |  | ✓ | ✓ | 1.0 |
 | **6.7** | Verify that CA certificates are rotated in regular intervals. |  | ✓ | ✓ | 1.0 |
 | **6.8** | Verify that your own CA is used for generating and verifying certificates used for mutual TLS authentication of inter-cluster communication. |  | ✓ | ✓ | 1.0 |
